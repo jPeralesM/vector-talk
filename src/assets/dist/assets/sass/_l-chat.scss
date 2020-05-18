@@ -1,0 +1,12 @@
+.bc-chat {
+  position: fixed;
+  right: $bulletRight;
+  bottom: $bulletBottom + ($bulletWidth) * $bulletFontSize / $chatFontSize + .5em;
+  width: $chatWidth;
+  font-size: $chatFontSize;
+  border-radius: .3125em;
+  background-color: $colorBackground;
+  box-shadow: 0 .125em .1875em 0 rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  z-index: 2;
+}

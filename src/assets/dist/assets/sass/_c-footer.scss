@@ -1,0 +1,112 @@
+.bc-footer {
+  position: relative;
+  height: 1.1875em + (.6875em * 2);
+  padding: .6875em 1em;
+  color: $colorBackground;
+  background-color: $colorPrimary;
+  z-index: 20;
+
+  &-type {
+    left: 1em;
+    right: 2.75em;
+  }
+
+  &-typearea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: .45em 1em 0;
+    min-height: 2.111em;
+    max-height: 2.111em * 4;
+    color: $colorText;
+    font-size: .5625em;
+    border-radius: 1em;
+  }
+  
+  &-typearea, &-filebutton {
+    border: .0625em solid mix($colorText-l, white, 20%);
+  }
+
+  &-type, &-filebutton, &-filebox, , &-send {
+    position: absolute;
+    bottom: .6875em;
+  }
+  
+  &-filebutton, &-filebox {
+    right: 1em;
+    color: $colorText;
+    background-color: $colorBackground;
+  }
+
+  &-filebutton, &-send {
+    width: 1.1875em;
+    height: 1.1875em;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+
+    .bc-ico {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+
+  &-filebutton {
+    border: .0625em solid mix($colorText-l, white, 20%);
+    z-index: 2;
+
+    .bc-footer--open & {
+      box-shadow: 0 0 .3em rgba(0,0,0,.1);
+    }
+
+    .bc-ico {
+      font-size: 70%;
+    }
+  }
+
+  &-send {
+    right: 2.75em;
+    background-color: mix($colorText-l, white, 15%);
+    transform-origin: left center;
+    transform: scale(.8);
+
+    .bc-ico {
+      font-size: 60%;
+    }
+
+    &--disabled {
+      pointer-events: none;
+      opacity: .5;
+    }
+  }
+  
+  &-filebox {
+    display: none;
+    left: 1em;
+    border-radius: .5em;
+    box-shadow: 0 0 .3em rgba(0,0,0,.1);
+    z-index: 1;
+
+    .bc-footer--open & {
+      display: block;
+    }
+  }
+
+  &-link {
+    display: block;
+    width: 100%;
+    padding: .5em 1em;
+    font-size: .625em;
+    text-align: left;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:not(:first-child) {
+      border-top: .0625em solid mix($colorText-l, white, 20%);
+    }
+  }
+}

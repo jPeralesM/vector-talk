@@ -1,0 +1,29 @@
+[
+    {
+      "attachments": [],
+      "message": "Si. Llevo varios días intentando realizar una transferencia pero no puedo realizarla",
+      "messageId": 1,
+      "readed": false,
+      "recipientId": 1,
+      "senderId": 2,
+      "timestamp": "2017-05-27T08:29:31.179Z"
+    },
+    {
+      "attachments": [],
+      "message": "Buenas tardes",
+      "messageId": 2,
+      "readed": true,
+      "recipientId": 1,
+      "senderId": 2,
+      "timestamp": "2017-05-27T08:29:31.179Z"
+    },
+    {
+      "attachments": [],
+      "message": "Buenas tardes, ¿te puedo ayudar con alguna consulta?",
+      "messageId": 3,
+      "readed": false,
+      "recipientId": 2,
+      "senderId": 1,
+      "timestamp": "2017-05-26T08:31:31.179Z"
+    }
+  ]

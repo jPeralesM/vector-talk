@@ -1,0 +1,25 @@
+{
+	"FILES": {
+	  "MAX_UPLOAD": 10000,
+	  "TYPES": "image/*, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain",
+	  "ERROR_SIZE_MSG": "El archivo es demasiado grande para el sistema de archivos de destino",
+	  "ERROR_NAME_MSG": "El nombre del archivo no es correcto",
+	  "DELETE_MSG_ERROR": 3000,
+	  "ERROR_FILE_TYPE": "Tipo de archivo no permitido"
+	},
+	"ROUTES": {
+	  "BASE_API_BACK_DEV": "http://bankia360-api.vectorsf.net",
+	  "BASE_API_BACK_EPD": "https://iob-epd.cm.es/muro-api",
+	  "BASE_API_BACK_EPI1": "https://iob-epi.cm.es/muro-api",
+	  "BASE_API_BACK_EPI2": "https://iob-epp.cm.es/muro-api",
+	  "BASE_API_BACK_PILOTO": "https://iobp.cm.es/muro-api",
+	  "BASE_API_BACK_EMI": "https://iob-emi.cm.es/muro-api",
+	  "BASE_API_BACK_EPR": "https://iob.cm.es/muro-api",
+	  "BASE_API_REST_SALESFORCE": "/V1/salesforce/"
+	},
+	"REST_PARAMS": {
+	  "WITHOUT_PAGINATION": "&pageSize=3000",
+	  "STANDAR_ORDERBY": "&sortBy=send_date-"
+	}
+  }
+  

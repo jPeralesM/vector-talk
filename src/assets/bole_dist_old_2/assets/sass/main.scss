@@ -1,0 +1,49 @@
+/*!
+ * Bankia
+ * 2019 Vector ITC
+ */
+
+// // Config
+// @import "config/vars";
+// @import "config/colors";
+// @import "config/normalize";
+// @import "config/fonts";
+// @import "config/icons";
+// @import "config/layout";
+
+// // Atoms
+// @import "atoms/nav";
+// @import "atoms/buttons";
+// @import "atoms/count";
+// @import "atoms/lists";
+// @import "atoms/item";
+// @import "atoms/switch";
+// @import "atoms/loader";
+// @import "atoms/forms";
+
+// // Molecules
+// @import "molecules/search";
+// @import "molecules/message";
+// @import "molecules/error";
+// @import "molecules/typebox";
+// @import "molecules/notification";
+// @import "molecules/modal";
+// @import "molecules/settings";
+// @import "molecules/attachments";
+
+// // Organisms
+// @import "organisms/header";
+// @import "organisms/footer";
+
+// @import "config/animations";
+// @import "config/mobile";
+// @import "config/helpers";
+
+@import "core/variables";
+@import "core/core";
+@import "core/fonts";
+@import "core/mixins";
+@import "core/grid";
+
+@import "modules/buttons";
+@import "modules/helper";

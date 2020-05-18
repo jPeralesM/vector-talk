@@ -1,0 +1,26 @@
+{
+  "ENVIRONMENT": "mock",
+  "ROUTES": {
+    "BASE_API_BACK_DEV": "http://bankia360-api.vectorsf.net",
+    "BASE_API_BACK_EPD": "/muro-api",
+    "BASE_API_BACK_EPI1": "/muro-api",
+    "BASE_API_BACK_EPI2": "/muro-api",
+    "BASE_API_BACK_EPR": "/muro-api"
+  },
+  "SOCKET": {
+    "URL_DEV": "",
+    "URL_EPR": "",
+    "URL_EPR_MOBILE": "",
+    "PREFIX_PATH_DEV": "/snp/",
+    "PREFIX_PATH_EPR": "/neo/"
+  },
+  "FILES": {
+    "MAX_UPLOAD": 10000,
+    "TYPES": "image/*, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain",
+    "ERROR_SIZE_MSG": "El archivo es demasiado grande para el sistema de archivos de destino",
+    "ERROR_NAME_MSG": "El nombre del archivo no es correcto",
+    "DELETE_MSG_ERROR": 3000,
+    "ERROR_FILE_TYPE": "Tipo de archivo no permitido"
+  }
+}
+  

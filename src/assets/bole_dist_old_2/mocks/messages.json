@@ -1,0 +1,29 @@
+[
+    {
+      "attachments": [],
+      "message": "Hola Sandra, los documentos pendientes de adjuntar me los tienes que enviar mañana sin falta",
+      "messageId": 1,
+      "readed": false,
+      "recipientId": 1,
+      "senderId": 2,
+      "timestamp": "2017-05-13T08:29:31.179Z"
+    },
+    {
+      "attachments": [],
+      "message": "Hola Sandra, te llamo ahora",
+      "messageId": 2,
+      "readed": true,
+      "recipientId": 1,
+      "senderId": 2,
+      "timestamp": "2017-05-14T08:29:31.179Z"
+    },
+    {
+      "attachments": [],
+      "message": "Hola, tengo un problema con la transferencia",
+      "messageId": 3,
+      "readed": false,
+      "recipientId": 2,
+      "senderId": 1,
+      "timestamp": "2017-05-15T08:31:31.179Z"
+    }
+  ]

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Bankia Icons";
+  src: url("../icons/vector-bankia-chat-sign.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bc-ico-"], [class*=" bc-ico-"] {
+  font-family: 'Bankia Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bc-ico-arrow-down:before {
+  content: "\e915";
+}
+.bc-ico-arrow-up:before {
+  content: "\e916";
+}
+.bc-ico-edit:before {
+  content: "\e914";
+}
+.bc-ico-calendar-check:before {
+  content: "\e913";
+}
+.bc-ico-search:before {
+  content: "\e911";
+}
+.bc-ico-logo:before {
+  content: "\e912";
+}
+.bc-ico-chat:before {
+  content: "\e900";
+}
+.bc-ico-paperclip:before {
+  content: "\e901";
+}
+.bc-ico-download:before {
+  content: "\e902";
+}
+.bc-ico-upload:before {
+  content: "\e902";
+  display: inline-block;
+  transform: scaleY(-1);
+}
+.bc-ico-eye:before {
+  content: "\e903";
+}
+.bc-ico-file:before {
+  content: "\e904";
+}
+.bc-ico-reload:before {
+  content: "\e905";
+}
+.bc-ico-send:before {
+  content: "\e906";
+}
+.bc-ico-plus:before {
+  content: "\e907";
+}
+.bc-ico-alert:before {
+  content: "\e908";
+}
+.bc-ico-users:before {
+  content: "\e909";
+}
+.bc-ico-filter:before {
+  content: "\e90a";
+}
+.bc-ico-check:before {
+  content: "\e90f";
+}
+.bc-ico-close:before {
+  content: "\e910";
+}
+.bc-ico-up:before {
+  content: "\e90b";
+}
+.bc-ico-down:before {
+  content: "\e90c";
+}
+.bc-ico-left:before {
+  content: "\e90d";
+}
+.bc-ico-right:before {
+  content: "\e90e";
+}

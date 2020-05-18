@@ -1,0 +1,125 @@
+.bc-attachments {
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+.bc-attach {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  
+  &-file {
+    position: relative;
+    color: $colorText-l;
+    font-size: 3em;
+
+    &:after {
+      position: absolute;
+      content: 'file';
+      bottom: .45em;
+      left: .4em;
+      padding: .2em .3em;
+      font-family: 'Bankia';
+      font-size: .3em;
+      color: #fff;
+      background-color: $colorText;
+      text-transform: uppercase;
+    }
+
+    &--pdf {
+      &:after {
+        content: "pdf";
+        background-color: #ec2727;
+      }
+    }
+
+    &--img {
+      &:after {
+        content: "img";
+        background-color: #434343;
+      }
+    }
+
+    &--doc {
+      &:after {
+        content: "doc";
+        background-color: #2735ec;
+      }
+    }
+
+    &--text {
+      &:after {
+        content: "text";
+        background-color: #ae27ec;
+      }
+    }
+
+    &--xls {
+      &:after {
+        content: "xls";
+        background-color: #27c712;
+      }
+    }
+  }
+  
+  &-download {
+    position: absolute;
+    top: 0;
+    right: -1.5em;    
+    color: $colorText;
+    font-size: .75em;
+  }
+  
+  &-note {
+    color: $colorText;
+    font-size: .6875em;
+  }
+
+  &--list {
+    display: block;
+    padding: .25em 0;
+    // border-left: .3125em solid;
+
+    &:not(:last-child) {
+      border-bottom: .0625em solid mix($colorText-l, white, 20%);
+    }
+
+    .bc-attach {
+      &-file {
+        font-size: .8125em;
+      }
+
+      &-download {
+        top: .5em;
+        right: .5em;
+      }
+    }
+  }
+
+  &-row {
+    display: flex;
+    align-items: center;    
+    padding: .25em .5em;
+  }
+
+  &-name {
+    font-size: .5625em;
+    padding: 0 .25em;
+  }
+
+  &-ico, &-state, &-time, &-size {
+    font-size: .4375em;
+  }
+
+  &-state {
+    padding-left: .25em;
+  }
+
+  &-time {
+    flex-grow: 1;
+    padding: 0 .75em;
+  }
+}

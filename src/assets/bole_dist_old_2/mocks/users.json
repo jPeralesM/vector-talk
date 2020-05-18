@@ -1,0 +1,12 @@
+{
+    "businessFunctions": [
+      "string"
+    ],
+    "name": "Nombre del usuario",
+    "originType": "string",
+    "userId": 1,
+    "userRoles": [
+      "string"
+    ]
+  }
+  

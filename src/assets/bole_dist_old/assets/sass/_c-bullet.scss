@@ -1,0 +1,38 @@
+.bc-bullet {
+  display: block;
+  position: fixed;
+  right: $bulletRight;
+  bottom: $bulletBottom;
+  width: $chatBallWidth;
+  height: $chatBallWidth;
+  line-height: 0;
+  font-size: $chatFontSize;
+  border: 0;
+  border-radius: 50%;
+  background-color: $colorPrimary;
+  box-shadow: 0 .0625em .1875em 0 rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+  z-index: 1;
+
+  .bc-ico {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.4em;
+    transform: translate(-50%,-50%);
+
+    &-close {
+      font-size: 70%;
+      
+      .bc-bullet--open &{
+        display: block;
+      }
+    }
+
+    &-chat {      
+      .bc-bullet--open &{
+        display: none;
+      }
+    }
+  }
+}

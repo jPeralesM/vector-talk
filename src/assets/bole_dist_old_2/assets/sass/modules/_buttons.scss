@@ -1,0 +1,26 @@
+
+.btn {
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  &-primary {
+    width: 100%;
+    background-color: $primaryColor;
+    color: $whiteColor;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 5px 0;
+  }
+  &-secondary {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    color: $primaryColor;
+    background-color: transparent;
+    text-transform: uppercase;
+  }
+}

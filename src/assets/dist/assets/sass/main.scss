@@ -1,0 +1,26 @@
+/*!
+ * Bankia
+ * 2019 Vector ITC
+ */
+
+// Config
+@import "b-vars";
+@import "b-normalize";
+@import "b-fonts";
+@import "b-icons";
+
+// Components
+@import "c-bullet";
+@import "c-header";
+@import "c-main";
+@import "c-message";
+@import "c-attach";
+@import "c-footer";
+@import "c-overlay";
+@import "c-loader";
+
+// Layout
+@import "l-chat";
+
+// Extras
+@import "x-helpers";

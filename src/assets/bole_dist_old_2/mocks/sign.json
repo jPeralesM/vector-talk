@@ -1,0 +1,38 @@
+[
+    {
+        "fileId": 2,
+        "title": "Fichero Impuestos",
+        "account": "*****5980",
+        "date": "2017-05-14T08:29:31.179Z",
+        "ref": "AB2908855447",
+        "amount": 12900,
+        "sign": false
+    },
+    {
+        "fileId": 3,
+        "title": "Fichero Seguridad Social",
+        "account": "*****5951",
+        "date": "2017-05-14T08:29:31.179Z",
+        "ref": "AB2908855447",
+        "amount": 18900,
+        "sign": true
+    },
+    {
+        "fileId": 4,
+        "title": "Fichero Nóminas",
+        "account": "*****5982",
+        "date": "2017-05-14T08:29:31.179Z",
+        "ref": "AB2908855447",
+        "amount": 12950,
+        "sign": false
+    },
+    {
+        "fileId": 5,
+        "title": "Fichero Nóminas Albacete",
+        "account": "*****5987",
+        "date": "2017-05-14T08:29:31.179Z",
+        "ref": "AB2908855447",
+        "amount": 12902,
+        "sign": true
+    }
+]
